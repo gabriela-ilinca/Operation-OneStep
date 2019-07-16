@@ -21,7 +21,6 @@
         .image-bottom-left{
             margin-left: 1px;
             margin-right: 10em;
-
         }
         .container {
             width: 100%;
@@ -30,47 +29,37 @@
             margin-right: auto;
             margin-left: auto
         }
-
         .blockquote-primary {
             border-color: #f96332;
             top: 80px;
-
         }
-
         .image-right {
             top: 80px;
             margin-left: -100px;
             margin-bottom: 130px;
         }
-
         .image-left {
             margin-right: 150px;
         }
-
         @media screen and (max-width: 768px) {
             .image-container.image-left {
                 margin-bottom: 260px;
             }
-
             .image-container.image-left .blockquote-primary {
                 margin: 0 auto;
                 position: relative;
                 right: 0;
             }
         }
-
         .blockquote {
             margin-left: 100px;
             margin-bottom: 1rem;
             align-content: center;
-
         }
-
         .col-md-5 {
             flex: 0 0 41.66666667%;
             max-width: 41.66666667%
         }
-
         .col-md-6 {
             flex: 0 0 50%;
             max-width: 50%
@@ -466,7 +455,6 @@
 </div>
 <script>
     var x = document.getElementById("demo");
-
     function getLocation() {
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
@@ -474,7 +462,6 @@
             x.innerHTML = "Geolocation is not supported by this browser.";
         }
     }
-
     function showPosition(position) {
         x.innerHTML = "Latitude: " + position.coords.latitude +
             "<br>Longitude: " + position.coords.longitude;
